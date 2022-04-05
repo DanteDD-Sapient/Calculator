@@ -18,7 +18,7 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
-    ignorePatterns: ['.eslintrc.js'],
+    ignorePatterns: ['.eslintrc.js', '*.config.js'],
     plugins: ['react', '@typescript-eslint'],
     rules: {
         'import/extensions': [
